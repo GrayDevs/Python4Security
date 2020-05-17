@@ -48,7 +48,7 @@ def main():
 	list_special_char = ['!', '@', '#', '$', '%', '^', '&', '*', '?']
 	dict_nr = {'a': '@', 'o': '0', 'e': '3'}
 
-	wordlist = utils.file_operation('../resources/wordlist_en.txt', 'open')
+	wordlist = utils.file_operation('../../resources/wordlist_en.txt', 'open')
 	utils.touch("tmp")
 	tmp = utils.file_operation('tmp', 'open', )
 	for word in wordlist.readlines():
