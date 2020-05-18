@@ -46,8 +46,7 @@ if __name__ == '__main__':
     main()
 
 """
-# https://www.youtube.com/watch?v=Gaf1Z1bwbpY
-
+# Bash version
 if [ $# -gt 2 ]; then
     echo "USAGE: .script.sh <domain>
     echo "Example: ./script.sh yahoo.com"
