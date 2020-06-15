@@ -33,7 +33,10 @@ $X      - append character
 """
 
 import datetime
-from py4Sec import utils
+from py4Sec.utils import file_handler
+
+
+RULE = "c"
 
 
 def main():
@@ -48,9 +51,10 @@ def main():
 	list_special_char = ['!', '@', '#', '$', '%', '^', '&', '*', '?']
 	dict_nr = {'a': '@', 'o': '0', 'e': '3'}
 
-	wordlist = utils.file_operation('../../resources/wordlist_en.txt', 'open')
-	utils.touch("tmp")
-	tmp = utils.file_operation('tmp', 'open', )
+	# open the wordlist
+	wordlist = file_handler.file_operation('../../resources/wordlist_en.txt', 'open', 'r')
+	file_handler.touch("tmp")
+	tmp = file_handler.file_operation('tmp', 'open')
 	for word in wordlist.readlines():
 		print(word.strip('\n'))
 		# copy wordlist into tmp
@@ -58,7 +62,7 @@ def main():
 		# append word+season
 		# append numbers
 		# append special char
-		#
+
 		pass
 	pass
 
