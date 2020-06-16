@@ -38,21 +38,21 @@ BASE = len(POSSIBLE_CHARS)  # base utilisée pour la conversion
 MAX_ATTEMPTS = 10000000  # Pour les besoins de la démo, nous limitons le nombre d'essai.
 
 
-def base_conversion(a, b):
-	""" Convertis un nombre a
-	:param a: <int> - entier en base 10
-	:param b: <list> -
-	:return:
+def base_conversion(n, base):
+	""" Convertis un nombre n dans une base donnée
+	:param n: <int> - entier en base 10
+	:param base: <int> - base dans laquelle effectuer la conversion
+	:return: converted: <list> nombre convertis dans la base donnée
 	"""
 	converted = []
-	while a:
-		converted.append(int(a % b))
-		a //= b
+	while n:
+		converted.append(int(n % base))
+		n //= base
+		print(converted)
 	return converted[::-1]
 
 
 def main():
-
 	start = time.time()
 	number_of_attempts = 0
 	attack_success = False

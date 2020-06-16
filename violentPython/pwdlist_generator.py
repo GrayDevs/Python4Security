@@ -38,6 +38,8 @@ from py4Sec.utils import file_handler
 
 RULE = "c"
 
+LEET = {'a':'4','b':'6', 'e':'3', 'l':'1', 'i':'1', 'o':'0', 's':'5'}
+
 
 def main():
 
@@ -53,8 +55,8 @@ def main():
 
 	# open the wordlist
 	wordlist = file_handler.file_operation('../../resources/wordlist_en.txt', 'open', 'r')
-	file_handler.touch("tmp")
-	tmp = file_handler.file_operation('tmp', 'open')
+	file_handler.touch("../py4Sec/Offensive/reconnaissance/tmp")
+	tmp = file_handler.file_operation('../py4Sec/Offensive/reconnaissance/tmp', 'open')
 	for word in wordlist.readlines():
 		print(word.strip('\n'))
 		# copy wordlist into tmp

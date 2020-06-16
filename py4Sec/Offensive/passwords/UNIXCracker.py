@@ -18,7 +18,7 @@ import crypt
 
 def test_pwd(encrypted_pwd):
     salt = encrypted_pwd[0:2]
-    dictionary = open('../resources/rockyou.txt')
+    dictionary = open('../../../resources/rockyou.txt')
     for word in dictionary.readlines():
         # make shure that line separator is LF and not CRLF or CR
         word = word.strip('\n')
@@ -31,7 +31,7 @@ def test_pwd(encrypted_pwd):
 
 
 def main():
-    passwd_file = open("../resources/passwd")
+    passwd_file = open("../../../resources/passwd")
     for line in passwd_file.readlines():
         if ":" in line:
             user = line.split(':')[0]
