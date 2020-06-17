@@ -1,0 +1,222 @@
+Subject: Re: test
+To: victorien.choteau@utt.fr
+References: <b592c8cd-bf11-c8bc-ca7e-d592ca3de79a@gmail.com>
+ <f4c0ae82-8ab6-f67b-8aaf-63b354162a24@utt.fr>
+ <CA++sT2csRpnyOZa+wbAAe5E8nx=gB78AN=nLyVL3gabHvwTTQw@mail.gmail.com>
+ <1d7beb06-3a38-e99d-22f5-c3e18c32ffec@utt.fr>
+From: Vik <choteau.victorien@gmail.com>
+Message-ID: <9a94f109-0bfc-6c41-f61d-a2ad01785893@gmail.com>
+Date: Sun, 23 Jun 2019 11:45:45 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101
+ Thunderbird/60.7.1
+MIME-Version: 1.0
+In-Reply-To: <1d7beb06-3a38-e99d-22f5-c3e18c32ffec@utt.fr>
+Content-Type: multipart/mixed;
+ boundary="------------2DE768F59368E0D8C0023ADB"
+Content-Language: en-US
+
+This is a multi-part message in MIME format.
+--------------2DE768F59368E0D8C0023ADB
+Content-Type: multipart/alternative;
+ boundary="------------E1E24E3C922E34FF582A9CCF"
+
+
+--------------E1E24E3C922E34FF582A9CCF
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+autre essai
+
+Le 19/06/2019 =C3=A0 12:35, Alain Corpel a =C3=A9crit=C2=A0:
+> Test 2
+>
+> Le 19/06/2019 =C3=A0 12:35, Victorien Choteau a =C3=A9crit=C2=A0:
+>> Oui d'accord
+>>
+>> Le mer. 19 juin 2019 =C3=A0 12:33, Alain Corpel <alain.corpel@utt.fr
+>> <mailto:alain.corpel@utt.fr>> a =C3=A9crit=C2=A0:
+>>
+>>     Test
+>>     Le 19/06/2019 =C3=A0 12:30, Vik a =C3=A9crit=C2=A0:
+>>     > Bonjour
+>>     >
+>>
+>>     --=20
+>>     Alain Corpel
+>>
+>>     Enseignant-Chercheur - S=C3=A9curit=C3=A9 des Syst=C3=A8mes d'Info=
+rmation
+>>     Lead Auditor ISO/IEC 27001
+>>     Universit=C3=A9 de Technologie de Troyes (UTT) - Bureau X121
+>>     P=C3=B4le : Homme, Environnement et Technologie de l'information e=
+t de la
+>>     communication (HETIC)
+>>
+>>     Adresse : Alain Corpel, UTT - p=C3=B4le HETIC
+>>     12 rue Marie Curie
+>>     CS 42060
+>>     10004 Troyes Cedex
+>>
+>>     Tel:=C2=A0 33 (3) 25 75 97 17 - 06 74 98 32 52 - mail:
+>>     alain.corpel@utt.fr <mailto:alain.corpel@utt.fr>
+>>
+>
+> --=20
+> Alain Corpel
+>
+> Enseignant-Chercheur - S=C3=A9curit=C3=A9 des Syst=C3=A8mes d'Informati=
+on
+> Lead Auditor ISO/IEC 27001
+> Universit=C3=A9 de Technologie de Troyes (UTT) - Bureau X121
+> P=C3=B4le : Homme, Environnement et Technologie de l'information et de =
+la
+> communication (HETIC)
+>
+> Adresse : Alain Corpel, UTT - p=C3=B4le HETIC=20
+> 12 rue Marie Curie
+> CS 42060
+> 10004 Troyes Cedex
+>
+> Tel:  33 (3) 25 75 97 17 - 06 74 98 32 52 - mail: alain.corpel@utt.fr
+
+--------------E1E24E3C922E34FF582A9CCF
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+  </head>
+  <body text=3D"#000000" bgcolor=3D"#FFFFFF">
+    <p>autre essai<br>
+    </p>
+    <div class=3D"moz-cite-prefix">Le 19/06/2019 =C3=A0 12:35, Alain Corp=
+el a
+      =C3=A9crit=C2=A0:<br>
+    </div>
+    <blockquote type=3D"cite"
+      cite=3D"mid:1d7beb06-3a38-e99d-22f5-c3e18c32ffec@utt.fr">
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+      <div class=3D"moz-cite-prefix">Test 2<br>
+      </div>
+      <div class=3D"moz-cite-prefix"><br>
+      </div>
+      <div class=3D"moz-cite-prefix">Le 19/06/2019 =C3=A0 12:35, Victorie=
+n
+        Choteau a =C3=A9crit=C2=A0:<br>
+      </div>
+      <blockquote type=3D"cite"
+cite=3D"mid:CA++sT2csRpnyOZa+wbAAe5E8nx=3DgB78AN=3DnLyVL3gabHvwTTQw@mail.=
+gmail.com">
+        <meta http-equiv=3D"content-type" content=3D"text/html;
+          charset=3DUTF-8">
+        <div dir=3D"auto">Oui d'accord</div>
+        <br>
+        <div class=3D"gmail_quote">
+          <div dir=3D"ltr" class=3D"gmail_attr">Le mer. 19 juin 2019 =C3=A0=
+
+            12:33, Alain Corpel &lt;<a href=3D"mailto:alain.corpel@utt.fr=
+"
+              moz-do-not-send=3D"true">alain.corpel@utt.fr</a>&gt; a
+            =C3=A9crit=C2=A0:<br>
+          </div>
+          <blockquote class=3D"gmail_quote" style=3D"margin:0 0 0
+            .8ex;border-left:1px #ccc solid;padding-left:1ex">Test<br>
+            Le 19/06/2019 =C3=A0 12:30, Vik a =C3=A9crit=C2=A0:<br>
+            &gt; Bonjour<br>
+            &gt;<br>
+            <br>
+            -- <br>
+            Alain Corpel<br>
+            <br>
+            Enseignant-Chercheur - S=C3=A9curit=C3=A9 des Syst=C3=A8mes d=
+'Information<br>
+            Lead Auditor ISO/IEC 27001<br>
+            Universit=C3=A9 de Technologie de Troyes (UTT) - Bureau X121<=
+br>
+            P=C3=B4le : Homme, Environnement et Technologie de l'informat=
+ion
+            et de la<br>
+            communication (HETIC)<br>
+            <br>
+            Adresse : Alain Corpel, UTT - p=C3=B4le HETIC <br>
+            12 rue Marie Curie<br>
+            CS 42060<br>
+            10004 Troyes Cedex<br>
+            <br>
+            Tel:=C2=A0 33 (3) 25 75 97 17 - 06 74 98 32 52 - mail: <a
+              href=3D"mailto:alain.corpel@utt.fr" target=3D"_blank"
+              rel=3D"noreferrer" moz-do-not-send=3D"true">alain.corpel@ut=
+t.fr</a><br>
+            <br>
+          </blockquote>
+        </div>
+      </blockquote>
+      <p><br>
+      </p>
+      <pre class=3D"moz-signature" cols=3D"72">--=20
+Alain Corpel
+
+Enseignant-Chercheur - S=C3=A9curit=C3=A9 des Syst=C3=A8mes d'Information=
+
+Lead Auditor ISO/IEC 27001
+Universit=C3=A9 de Technologie de Troyes (UTT) - Bureau X121
+P=C3=B4le : Homme, Environnement et Technologie de l'information et de la=
+
+communication (HETIC)
+
+Adresse : Alain Corpel, UTT - p=C3=B4le HETIC=20
+12 rue Marie Curie
+CS 42060
+10004 Troyes Cedex
+
+Tel:  33 (3) 25 75 97 17 - 06 74 98 32 52 - mail: <a class=3D"moz-txt-lin=
+k-abbreviated" href=3D"mailto:alain.corpel@utt.fr" moz-do-not-send=3D"tru=
+e">alain.corpel@utt.fr</a></pre>
+    </blockquote>
+  </body>
+</html>
+
+--------------E1E24E3C922E34FF582A9CCF--
+
+--------------2DE768F59368E0D8C0023ADB
+Content-Type: application/pgp-keys;
+ name="pEpkey.asc"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+ filename="pEpkey.asc"
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBFzCId4BCACxS8rigbXOuOpStlXqaZ33I8D1XEImqqox4b/eWwIB/0EkKiBh
+vnt/308BL/9kAcHGBBEOyOoKZs9UJg8KU2BXq7+r8etd1ILaZY255r8NLPGmY05K
+XDyUDzK7BduCBDjIe224XxXAPbbCyhnJRgRKalzpLfT1AS/hMYC7Fx3aogTzXmNH
+JGajywOb5piJ4aqqRC+txgHuqdNotwfp9eovwieTRVTdBZO8b2XOtgBYit0qQ7xO
+wy8ykeBwhRxTMjSpXZszr3NLeoYu4N5IWIUVuGQX1oQ+ElvXsaggjYFKBIQSv2as
+z24eYwlkV7Svr15ja9wlqI3gXEXonZIVbnQ1ABEBAAG0IVZpayA8Y2hvdGVhdS52
+aWN0b3JpZW5AZ21haWwuY29tPokBVAQTAQgAPhYhBM315IOib8FOZ2uby/0ov/au
+K8DKBQJcwiHfAhsDBQkB4TOABQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEP0o
+v/auK8DKlW0IAIDBLN9OyYtwJOyG0GbHVj4TpRUFl65LADVmU4cnCxKz682DrWJK
+X+Xu6HZnQAUrEF2tq/sJZJ6uimKXfn1VoQlB8pjp4AjizX8csfP/90DTEnvXS2xU
+SqqcTeCw6yaEltFUsXT2GUkxLkR05wNaPTShCN2JAwaGfW746LgtQVsoEVH+cwXI
+BNcpDf8vhduoUVR1yAa1BgV4MroKZO0bPlGA0XC8knrro0d55wc1SEdeqAI37tMI
+IIOBwMiLZND9nUffyt+bAyxzpRNlcZep13w8QKuquWVmHnEc/7vkT15ehx6rVd3x
+BhGBSi/B8YuCNCY/sFa+JWO6SzEv53MHVsq5AQ0EXMIh3wEIAME9ywcVMVmPA5Pl
+O8NB1gY/p9NfhZ8pFKpDhN90smGs9pFWoEMsd1TC9jWionfG/8n6R/jxNjyQERq6
+Jyndtkt8RR13RlJ3E1ecG0998Ue/zYCxQTs+OoqI4ThmOFPzJ3YJ48b+oQgvjqFf
++dr3zU8ruuLaxBB1EO2PgCwlCKG+GN8CrTHxscdbAzpF4AywY8LEsd5l0heHzJcd
+lNfQbYZYKiXDpKDAoTVyClJnz3Opc4VPlAOI2CvMTeR1XDnHjfG6prf3S0XZTtNz
+2BRz2vTVrZ9xznHK+gXXUqW3O4v8ZAONXxYA3m+SWLcIpubfVOIFpTFe+UPJiWMb
+96Dh5UcAEQEAAYkBPAQYAQgAJhYhBM315IOib8FOZ2uby/0ov/auK8DKBQJcwiHf
+AhsMBQkB4TOAAAoJEP0ov/auK8DKKmAH/imiufwfxelAWrw9pgA76i3MSmCgEQOL
+2ZaDS6+UwZ0yzme6XjBwTMmOCYJoVLO49hlFJu38nvh0M9Rt3Nrr5X58VcPPn7Wq
+rQVjItUKx0L8VNINr5hBdL6GmJEVHCnol8/GCnzC2Z2pvZ8zzKlliIZ3svdKoRKo
+UQZ/Az4lWXNst5UKHV2DepUONOeDoe754XOL7WaVc7sKRPALVjmo6+P7PHzVr/dS
+GbYWtYWMz/B1QwLoQWGg4m/OHFw/+vqowkQn7LDEaLLgV/cUU86cKNyIrqHorUpR
+F41I8V4ufflhnFTR5PR6tQhMZyB6BZj0DuBM1zpqm5ifpDC8ztbEINY=3D
+=3DTF29
+-----END PGP PUBLIC KEY BLOCK-----
+
+--------------2DE768F59368E0D8C0023ADB--

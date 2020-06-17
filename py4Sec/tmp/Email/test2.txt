@@ -1,0 +1,135 @@
+Delivered-To: choteau.victorien@gmail.com
+Received: by 2002:a02:a587:0:0:0:0:0 with SMTP id b7csp585761jam;
+        Wed, 19 Jun 2019 03:33:12 -0700 (PDT)
+X-Google-Smtp-Source: APXvYqy6L1eNTLJo78vTCf3gO7igJk2B274Vq1StlBWZQw38B+pbRzKT1KxpgaXtmWC5ig09nApO
+X-Received: by 2002:a5d:4d81:: with SMTP id b1mr3684097wru.27.1560940392897;
+        Wed, 19 Jun 2019 03:33:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1560940392; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FMPeSt6AG6MUeYLT7+bngYWCuS/DTwf/BY1W8uPCujHHbPrGH/VrzjLS0KsKK95OiI
+         lcTfV0rBa8PoicG5t0ZmX5cxlFFk1xgV25SBxNRVDJULKrTqWohWdC3cvXhGzyzObFmk
+         Dj0HhvNLFlYAkUzB4R3cQ610V8UXgJZIAY0pyFOJZCwrkDOhjkB4/Cmt7nSPqxIfe7IF
+         d/7tGu/VBqZYRgZrorl8z6NrDYBiuyJ5183mZI2SLpssmAFWMVM6oEJNUBTOum4JISRZ
+         g3dFMNrip4KJEG6MSAHEgTBBFlyruVCSK2B7Xk49atGBGM6GLlg9+cpKIzz2GkNtUO10
+         DwsA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:content-language:in-reply-to:mime-version
+         :user-agent:date:message-id:autocrypt:openpgp:from:references:to
+         :subject;
+        bh=b26UXApxkfaSdDkN6Jns8Oq29KcFj/35TT6Wyc9SoTY=;
+        b=oe1GnDpWD8Mp9AdKwDPnxMneeOZ3YDf28TI1kwmSBXVW/wrPa/buIa2qAneRtfOQOp
+         Klfmd3JS+8hiKB1Z/+XmnhwwzX23+oZElI1V/RJ9Z8A7V9XSEgaT8VypdyXzU9E/ucO6
+         tgvDROXf7PiAgR0rKuRfX5O+Bc3wt2A3GOjsa7gOZKMEvutpCZHyenye0vOu2IquXeUN
+         CTaz8F/WkEtcBDuW/kev7x8IIHHBHq+VyrzCOIZri5eLXfCzQxKhBQ5NTWBxjF2jWKKI
+         hIB1AZ2KPTKknFLYpsOD/wec4ZAYCJtmipHQzr7NFboJRHW4OEI+jcFaTCW973plml+v
+         LHBQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of alain.corpel@utt.fr designates 193.50.230.155 as permitted sender) smtp.mailfrom=alain.corpel@utt.fr;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=utt.fr
+Return-Path: <alain.corpel@utt.fr>
+Received: from z-proxy-02.utt.fr (z-proxy-02.utt.fr. [193.50.230.155])
+        by mx.google.com with ESMTPS id c18si15320556wrv.45.2019.06.19.03.33.12
+        for <choteau.victorien@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Jun 2019 03:33:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of alain.corpel@utt.fr designates 193.50.230.155 as permitted sender) client-ip=193.50.230.155;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of alain.corpel@utt.fr designates 193.50.230.155 as permitted sender) smtp.mailfrom=alain.corpel@utt.fr;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=utt.fr
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by z-proxy-02.utt.fr (Postfix) with ESMTP id 886CE60662
+	for <choteau.victorien@gmail.com>; Wed, 19 Jun 2019 12:33:12 +0200 (CEST)
+Received: from z-proxy-02.utt.fr ([127.0.0.1])
+	by localhost (z-proxy-02.utt.fr [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id tQEKdkAFVd_M for <choteau.victorien@gmail.com>;
+	Wed, 19 Jun 2019 12:33:12 +0200 (CEST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by z-proxy-02.utt.fr (Postfix) with ESMTP id 47C98606F5
+	for <choteau.victorien@gmail.com>; Wed, 19 Jun 2019 12:33:12 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at z-proxy-02.utt.fr
+Received: from z-proxy-02.utt.fr ([127.0.0.1])
+	by localhost (z-proxy-02.utt.fr [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id MAUF3VgFGK5a for <choteau.victorien@gmail.com>;
+	Wed, 19 Jun 2019 12:33:12 +0200 (CEST)
+Received: from wifi-personnels1010.utt.fr (wifi-personnels1010.utt.fr [10.19.4.244])
+	by z-proxy-02.utt.fr (Postfix) with ESMTPSA id 29C8F60662
+	for <choteau.victorien@gmail.com>; Wed, 19 Jun 2019 12:33:12 +0200 (CEST)
+Subject: Re: test
+To: Vik <choteau.victorien@gmail.com>
+References: <b592c8cd-bf11-c8bc-ca7e-d592ca3de79a@gmail.com>
+From: Alain Corpel <alain.corpel@utt.fr>
+Openpgp: preference=signencrypt
+Autocrypt: addr=alain.corpel@utt.fr; prefer-encrypt=mutual; keydata=
+ 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
+Message-ID: <f4c0ae82-8ab6-f67b-8aaf-63b354162a24@utt.fr>
+Date: Wed, 19 Jun 2019 12:33:11 +0200
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:60.0)
+ Gecko/20100101 Thunderbird/60.7.0
+MIME-Version: 1.0
+In-Reply-To: <b592c8cd-bf11-c8bc-ca7e-d592ca3de79a@gmail.com>
+Content-Type: text/plain; charset=utf-8
+Content-Language: fr
+Content-Transfer-Encoding: quoted-printable
+
+Test
+Le 19/06/2019 =C3=A0 12:30, Vik a =C3=A9crit=C2=A0:
+> Bonjour
+>
+
+--=20
+Alain Corpel
+
+Enseignant-Chercheur - S=C3=A9curit=C3=A9 des Syst=C3=A8mes d'Information
+Lead Auditor ISO/IEC 27001
+Universit=C3=A9 de Technologie de Troyes (UTT) - Bureau X121
+P=C3=B4le : Homme, Environnement et Technologie de l'information et de la
+communication (HETIC)
+
+Adresse : Alain Corpel, UTT - p=C3=B4le HETIC=20
+12 rue Marie Curie
+CS 42060
+10004 Troyes Cedex
+
+Tel:  33 (3) 25 75 97 17 - 06 74 98 32 52 - mail: alain.corpel@utt.fr
+
