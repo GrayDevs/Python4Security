@@ -53,11 +53,6 @@ d19.252.87.177
 49.76.189.182
 '''
 
-
-
-
-
-
 msg = email.message_from_file(sys.stdin)
 #msg = open("test.txt")
 msg2 = str(msg)
@@ -77,22 +72,22 @@ if receiverval is None:
 
 
 if senderval is None:
-	print ("Pas d'auteur valide, message envoyé à", receiverval)
+	print("Pas d'auteur valide, message envoyé à", receiverval)
 else:
-	print ("Le message a été envoyé par", senderval,"à", receiverval)
+	print("Le message a été envoyé par", senderval,"à", receiverval)
 
 if dateval is None:
-	print ("Pas de date valide trouvée.")
+	print("Pas de date valide trouvée.")
 else:
-	print ("Envoyé à", dateval)
+	print("Envoyé à", dateval)
 
 if serverval is None:
-	print ("Pas de server valide trouvé.")
+	print("Pas de server valide trouvé.")
 else:
-	print ("Envoyé depuis le serveur", serverval)
+	print("Envoyé depuis le serveur", serverval)
 
 if ipregex is None:
-	print ("Pas de d'addresse IP trouvée.")
+	print("Pas de d'addresse IP trouvée.")
 else:
-	print ("addresse IP d'envoi:", ipregex)
+	print("addresse IP d'envoi:", ipregex)
 

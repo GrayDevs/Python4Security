@@ -9,8 +9,6 @@ Resources:
 
 Hint: Un mot de pass UNIX est construit de la façon suivante:
     crypt('password','salt') = salt+encrypted_pwd.
-
-Hint: crypt('egg','HX') = HX9LLTdc/jiDE.
 """
 
 import crypt
@@ -31,7 +29,7 @@ def test_pwd(encrypted_pwd):
 
 
 def main():
-    passwd_file = open("../../../resources/passwd")
+    passwd_file = open("res/passwd")
     for line in passwd_file.readlines():
         if ":" in line:
             user = line.split(':')[0]
