@@ -117,14 +117,15 @@ def check_path(host,port,path):
                 title = title.group().strip()
             else:
                 title = ""
-            print (str(response.status_code) + "," + str(len(response.content)) + "," + url + "," + title)
+            print(str(response.status_code) + "," + str(len(response.content)) + "," + url + "," + title)
         elif verbose:
-            print (str(response.status_code) + "," + str(len(response.content)) + "," + url)
+            print(str(response.status_code) + "," + str(len(response.content)) + "," + url)
         return 1
 
     except Exception as e:
         if verbose: print ("[!] Error: Timeout or unexpected response from " + str(host) + ":" + str(port) + '/' + str(path) )
         return 0
+
 
 # Query a single path
 def path_worker(host, port, pathq):
